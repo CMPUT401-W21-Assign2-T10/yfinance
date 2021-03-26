@@ -1,6 +1,6 @@
 # TEST CASE REPORT
 
-# Base Url Testing
+# Cashflow data fetching test
 
 ### GENERAL INFORMATION
 
