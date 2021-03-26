@@ -8,7 +8,7 @@ Purpose: Make sure the scrape url is working
 ```
 Test Run Info:
 Tester Name: Junyao Cui
-Date(s) of Test: 2021-03-
+Date(s) of Test: 2021-03-25
 ```
 ```
 NOTES and RESULTS:

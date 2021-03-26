@@ -1,4 +1,4 @@
-# System Test Case a:
+# System Test Case:
 
 # Base URL Testing
 
