@@ -1,6 +1,6 @@
 # System Test Case:
 
-# Base URL Testing
+# Cashflow data fetching test
 
 ```
 Purpose: Test if the system gets the cashflow data of different stock symbols successfully
