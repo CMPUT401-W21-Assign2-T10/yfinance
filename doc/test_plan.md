@@ -64,13 +64,16 @@ Problems with qualitative calls #618, Andi and Junyao
 Financial Data not fetched #489, Maaz and Ali
 ```
 ```
+Empty DataFrame returned #343, Maaz and Ali
+```
+```
 ticker.financials, .cashflow, and .balance_sheet displaying blank data frame #518, Farish and Manpreet
 ```
 ## 2 Problems Found
 
 a). Based on the manual test for printing out thecash flow and quarterly_cashflow data with different
 stock symbols, we found that it can only show up thedata for specified Ticker objects which are MSFT,
-GOOG and AAPL. For other stock symbols, it will showthe empty data frame. And this problem is
+GOOG and AAPL. For other stock symbols, it will show the empty data frame. And this problem is
 related to the issues #618.
 
 ## 3 List of Planned Test
@@ -81,6 +84,8 @@ a). Test if the base url works
 b). Test if the scrape url works
 
 c). Test if it gets the cashflow and quarterly cashflowdata successfully
+
+d). Test if it gets empty dataframe from cashflow and quarterly cashflow data
 
 ## 4 Risks Involved
 

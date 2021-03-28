@@ -1,0 +1,67 @@
+# TEST CASE REPORT
+
+# Quaterly Cashflow fethcing dataframe
+
+### GENERAL INFORMATION
+
+Test Stage: 
+```
+Unit Test
+```
+Test Date: 
+```
+2021-03-27
+```
+Tester: 
+```
+Maaz Siddique & Ali Reza
+```
+Test Case Description:
+```
+Test if the system gets an empty dataframe or realtime data frame for the quaterly cashflow data of different stock symbols
+```
+Results:  ``fail`` 
+### INTRODUCTION
+Roles and Responsibilities:
+```
+Maaz Siddique and Ali Reza are responsible to write the tests for quaterly cashflow dataframe check
+```
+Set Up Procedures: 
+```
+Get quaterly cashflow dataframe of each tinker object
+```
+Stop Procedures:
+```
+Either receive empty dataframe quaterly cashflow or get the realtime dataframe for the quaterly cashflow
+```
+### TEST
+Test Items and Features: 
+```
+Items: 'MSFT', 'IWO', 'VFINX', '^GSPC', 'BTC-USD', 'BMW', "TSLA"
+```
+```
+Features: Gets quaterly cashflow dataframe
+```
+Input Specifications: 
+```
+No input required
+```
+Procedural Steps: 
+```
+Get quaterly cashflow dataframe of each tinker objects one by one
+```
+Expected Results of Case:
+```
+The dataframe of all objects should be empty
+```
+### ACTUAL RESULTS
+Output Specifications: ``Fail``
+```
+MSFT:     realtime data frame
+IWO:      empty data frame
+VFINX:    empty data frame
+^GSPC:    empty data frame
+BTC-USD:  empty data frame
+BMW:      empty data frame
+TSLA":    realtime data frame
+```
