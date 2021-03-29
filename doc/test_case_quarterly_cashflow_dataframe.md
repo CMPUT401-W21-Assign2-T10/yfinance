@@ -45,7 +45,17 @@ STEP | TEST STEP/INPUT   |  EXPECTED RESULT  |  ACTUAL RESULTS  | PASS/FAIL
      | get the data frame|                   |                  |
      | of cashflow       |                   |                  |
 ----------------------------------------------------------------------------
-7    | Input TSLA        | Empty DataFrame   | Realtime stock   | Fail
+7    | Input SPY         | Empty DataFrame   | Empty data frame | Pass
+     | ticker object and | (no Data)         |                  |
+     | get the data frame|                   |                  |
+     | of cashflow       |                   |                  |
+----------------------------------------------------------------------------
+8    | Input RIOT        | Empty DataFrame   | Realtime stock   | Fail
+     | ticker object and | (no Data)         | data             |
+     | get the data frame|                   |                  |
+     | of cashflow       |                   |                  |
+----------------------------------------------------------------------------
+9    | Input TSLA        | Empty DataFrame   | Realtime stock   | Fail
      | ticker object and | (no Data)         | data             |
      | get the data frame|                   |                  |
      | of cashflow       |                   |                  |

@@ -37,7 +37,7 @@ Either receive empty dataframe quaterly cashflow or get the realtime dataframe f
 ### TEST
 Test Items and Features: 
 ```
-Items: 'MSFT', 'IWO', 'VFINX', '^GSPC', 'BTC-USD', 'BMW', "TSLA"
+Items: 'MSFT', 'IWO', 'VFINX', '^GSPC', 'BTC-USD', 'BMW', 'TSLA', 'SPY', 'RIOT'
 ```
 ```
 Features: Gets quaterly cashflow dataframe
@@ -63,5 +63,7 @@ VFINX:    empty data frame
 ^GSPC:    empty data frame
 BTC-USD:  empty data frame
 BMW:      empty data frame
-TSLA":    realtime data frame
+SPY:      empty data frame
+RIOT:     realtime data frame
+TSLA:     realtime data frame
 ```

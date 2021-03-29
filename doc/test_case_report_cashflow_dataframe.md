@@ -63,5 +63,7 @@ VFINX:    empty data frame
 ^GSPC:    empty data frame
 BTC-USD:  empty data frame
 BMW:      empty data frame
-TSLA":    realtime data frame
+SPY:      empty data frame
+RIOT:     realtime data frame
+TSLA:     realtime data frame
 ```

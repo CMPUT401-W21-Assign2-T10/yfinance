@@ -30,7 +30,7 @@ class TestCashflowFetch(unittest.TestCase):
 			assert(ticker.quarterly_cashflow.empty is False)
 
 
-symbols = ['MSFT', 'IWO', 'VFINX', '^GSPC', 'BTC-USD', 'BMW', "TSLA", 'SPY', 'RIOT']
+symbols = ['MSFT', 'IWO', 'VFINX', '^GSPC', 'BTC-USD', 'BMW', 'TSLA', 'SPY', 'RIOT']
 tickers = [yf.Ticker(symbol) for symbol in symbols]
 
 class TestCashflowDataFrame(unittest.TestCase):
