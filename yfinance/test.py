@@ -7,7 +7,7 @@ import yfinance as yf
 # gspc = yf.Ticker("^GSPC")
 # btc = yf.Ticker("BTC-USD")
 # bmw = yf.Ticker("BMW")
-tsla = yf.Ticker("TSLA")
+tsla = yf.Ticker('RIOT')
 
 
 # print("MSFT")
@@ -34,7 +34,7 @@ tsla = yf.Ticker("TSLA")
 # print(bmw.cashflow)
 # print(bmw.quarterly_cashflow)
 
-print("tsla")
+# print("tsla")
 print(tsla.cashflow)
 print(tsla.quarterly_cashflow)
 
